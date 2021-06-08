@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica Neue;
+}
+
+div#titulo{
+	width: 100%;
+	margin-top: 100px;
+}
+
+p#header{
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}
+
+p#subheader{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 1.3em;
+	color: white;
+}
+
+header{
+	margin: 100px auto;
+	width: 1200px;
+	height: 230px;
+	background-color: red;
+}
+
+div.contenedor{
+	width: 200px;
+	height: 230px;
+	float: left;
+	-webkit-transition: height .4s;
+}
+
+div#uno{
+	background-color: rgb(208,101,3);
+}
+
+div#dos{
+	background-color: rgb(233,147,26);
+}
+
+div#tres{
+	background-color: rgb(22,145,190);
+}
+
+div#cuatro{
+	background-color: rgb(22,107,162);
+}
+
+div#cinco{
+	background-color: rgb(27,54,71);
+}
+
+div#seis{
+	background-color: rgb(21,40,54);
+}
+
+#titulouno{
+	background-color: #F7DC6F;
+	text-align: center;
+	font-size: 0.7em;
+	width: 650px;
+	height: 200px;
+	border-right:;
+	float: left;
+}
+#titulodos{
+	background-color: #FFA233;
+	text-align: center;
+	font-size: 0.7em;
+	width: 650px;
+	height: 200px;
+	border-right: ;
+	float: left;
+}
+#titulotres{
+	background-color: #AED6F1;
+	text-align: center;
+	width: 1300px;
+	height: 50px;
+	margin-right: 10px;
+	margin: 60px 0px 10px 0px;
+	font-size: 0.5em;
+	float: left;
+}
+
+p#titulouno{
+	text-align: center;
+	font-size: 1.9em;
+	color: #17202A;
+}
+
+p#titulodos{
+	text-align: center;
+	font-size: 1.9em;
+	color: #17202A;
+}
+
+p#titulo{
+	text-align: center;
+	font-size: 1.9em;
+	color: white;
+}
+
+img.icon{
+	display: block;
+	margin: 50px auto;
+	background-color: rgba(255,255,255,.15);
+	width: 40px;
+	padding: 20px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition: box-shadow .4s;
+}
+
+p.texto{
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+div.contenedor:hover{
+	height: 250px;
+}
+
+div.contenedor:hover p.texto{
+	padding-top: 30px;
+	opacity: 
+}
+
+div.contenedor:hover img.icon{
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+.zoom{
+	transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+
+.zoom:hover{
+	transform : scale(1.2);
+    -moz-transform : scale(1.2);      
+    -webkit-transform : scale(1.2);   
+    -o-transform : scale(1.2);     
+}
